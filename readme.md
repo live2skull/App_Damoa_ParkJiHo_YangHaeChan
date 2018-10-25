@@ -6,7 +6,8 @@
 **출타 장병들을 위한 택시 / 대중교통 합승 플랫폼**
 
 [시연 영상 바로가기](https://youtu.be/p-DyMTscsSk)  
-[앱 설치 파일(APK) 다운로드](http://download.live2skull.net/damoa.apk)
+[앱 설치 파일(APK) 다운로드](http://download.live2skull.net/damoa.apk)  
+[발표 자료 다운로드](http://download.live2skull.net/damoa.apk)  
 
 ### 일반 현황
  - 인원 : 국군지휘통신사령부 육군상병 박지호(안드로이드 앱), 15보병사단 육군일병 양해찬(API 서버)
