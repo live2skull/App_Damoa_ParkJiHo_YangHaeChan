@@ -1,0 +1,26 @@
+User 
+-
+id int PK
+sn varchar(20)
+realname int
+phone varchar(20)
+password_hash varchar(512)
+coord_x decimal
+coord_y decimal
+room_id varchar(20) FK >- Unit.room_id
+
+
+Chat
+-
+id int PK
+sn varchar(20) FK >- User.sn
+room_id varchar(20) FK >- Unit.room_id
+message varchar(100)
+
+
+Unit
+-
+id int PK
+name varchar(20)
+room_id varchar(20)
+mark_url varchar(50)

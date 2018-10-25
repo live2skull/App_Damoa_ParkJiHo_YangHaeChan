@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77B09D"
+    tools:context=".LoginActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77B09D"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="110dp"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/login_logo" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:letterSpacing="-0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/notosans"
+            android:text="국군장병 택시합승 APP"
+            android:layout_marginBottom="30dp"
+            android:textSize="9pt" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/loginSN"
+                android:background="@drawable/shape"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:drawablePadding="5dp"
+                android:paddingLeft="10dp"
+                android:textColor="#434A54"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/notosans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="군번"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/loginPW"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:layout_marginLeft="10dp"
+                android:textColor="#434A54"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/notosans"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/ic_action_lock"
+                android:hint="패스워드"
+                android:inputType="textPassword" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn"
+                    android:fontFamily="@font/notosans"
+                    android:textStyle="bold"
+                    android:textColor="#77B09D"
+                    android:textSize="7.5pt"
+                    android:layout_marginRight="10dp"
+                    android:text="로그인" />
+
+                <Button
+                    android:id="@+id/btnJoin"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/join_btn"
+                    android:textSize="7.5pt"
+                    android:fontFamily="@font/notosans"
+                    android:text="회원가입"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

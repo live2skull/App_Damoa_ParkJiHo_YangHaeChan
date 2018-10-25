@@ -1,0 +1,44 @@
+<html>
+    
+    <!-- bootstrap angularjs jquery -->
+    
+    <head>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+    </head>
+    <body>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+        <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+        <script src="/static/socket-io-client/socket.io.js"></script>
+        <link rel='stylesheet', type='text/css', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
+        <link rel='stylesheet', type='text/css', href='/public/stylesheets/locpage.css'>
+        <link rel='stylesheet', type='text/css', href='/public/stylesheets/notosans.css'>
+    
+        <script src='https://dapi.kakao.com/v2/maps/sdk.js?appkey=85a1f1fdea099e45e5f205bdad380ae4'></script>
+        <script type="text/javascript" src="https:////dapi.kakao.com/v2/maps/sdk.js?appkey=85a1f1fdea099e45e5f205bdad380ae4&libraries=services,clusterer,drawing"></script>
+        <script src="/public/javascripts/locpage.js"></script>
+        
+        <div class="chat_window">
+           <div class="top_menu">
+              <div class="buttons">
+                  <img id="goMap" src="./images/angle_left.svg" class="button">
+              </div>
+              <div class="title">주변 전우 찾기</div>
+           </div>
+           
+           
+           <div id="map"></div>
+           
+           
+        </div>
+    
+        
+        
+    </body>
+    
+    
+</html>

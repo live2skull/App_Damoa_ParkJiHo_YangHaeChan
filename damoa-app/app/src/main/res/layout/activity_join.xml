@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/notosans"
+            android:textColor="#77B09D"
+            android:textAlignment="center"
+            android:text="다모아 회원가입"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:backgroundTint="#77B09D"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_pencil"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/notosans"
+                android:ems="10"
+                android:layout_marginBottom="10dp"
+                android:hint="이름"
+                android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/editTextSN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/notosans"
+                android:layout_marginBottom="10dp"
+                android:hint="군번"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans"
+                android:paddingLeft="10dp"
+                android:ems="10"
+                android:layout_marginBottom="10dp"
+                android:hint="전화번호"
+                android:drawableLeft="@drawable/ic_action_phone"
+                android:drawablePadding="5dp"
+                android:inputType="phone"
+                android:digits="0123456789+"/>
+
+            <EditText
+                android:id="@+id/editTextPW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/notosans"
+                android:drawableLeft="@drawable/ic_action_lock"
+                android:drawablePadding="5dp"
+                android:hint="패스워드"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword" />
+            <EditText
+                android:id="@+id/editTextPW2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/ic_action_lock"
+                android:drawablePadding="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/notosans"
+                android:ems="10"
+                android:hint="패스워드 확인"
+                android:inputType="textPassword" />
+            <Button
+                android:id="@+id/btnJoinComplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#77B09D"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/notosans"
+                android:textSize="7.5pt"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:text="회원가입" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

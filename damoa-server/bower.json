@@ -1,0 +1,24 @@
+{
+  "name": "damoa-server",
+  "description": "",
+  "main": "",
+  "authors": [
+    "live2skull <live2skull@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/live2skull/osam_damoa_server",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io": "^2.1.1",
+    "socket-io-client": "^1.4.5",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "angular": "angularjs#^1.7.5"
+  }
+}

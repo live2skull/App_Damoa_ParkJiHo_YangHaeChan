@@ -1,0 +1,1 @@
+nodemon bin/www --ignore 'public/*' --ignore 'bower_components/*'
