@@ -37,7 +37,9 @@
 **1. 필수 패키지 설치**
 > npm install --save
 
-> npm install -g nodemon mocha 
+> npm install -g nodemon mocha bower
+
+> bower install --save
 
 
 **2. DB 접속 환경설정**
