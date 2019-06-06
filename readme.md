@@ -7,7 +7,7 @@
 
 
 [앱 설치 파일(APK) 다운로드](http://download.live2skull.net/damoa.apk)  
-[발표 자료 다운로드](http://download.live2skull.net/presentation.zip)  
+[발표 자료 다운로드](http://download.live2skull.net/damoa.pdf)  
 
 ### 시연
  - 왼쪽부터 첫번째(김병장), 두번째(전상병), 세번째(양일병)이 있다. 김병장은 현재 금정에서 과천으로 가고  있으며 과천의 A부대로 택시를 타고 가기 위해 합승자를 모집한다.
