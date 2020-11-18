@@ -6,15 +6,14 @@
 **출타 장병들을 위한 택시 / 대중교통 합승 플랫폼**
 
 
-[앱 설치 파일(APK) 다운로드](http://download.live2skull.net/damoa.apk)  
-[발표 자료 다운로드](http://download.live2skull.net/damoa.pdf)  
-
 ### 시연
+[시연 영상 바로가기](https://youtu.be/p-DyMTscsSk)    
  - 왼쪽부터 첫번째(김병장), 두번째(전상병), 세번째(양일병)이 있다. 김병장은 현재 금정에서 과천으로 가고  있으며 과천의 A부대로 택시를 타고 가기 위해 합승자를 모집한다.
  - 과천 인근 PC방에 있던 전상병이 부대에 복귀하기 위해 앱을 통해 김병장과 같이 가기로 약속을 한다.
  - 약속시간이 다가올 때 즈음 양일병이 부대복귀를 희망하여 앱을 통해 김병장과 전상병과 만나고, 셋이서 택시를 타고 부대를 가서 택시비의 부담이 덜어진다.  
-[시연 영상 바로가기](https://youtu.be/p-DyMTscsSk)  
 
+[앱 설치 파일(APK) 다운로드 - 링크 수정 예정](http://download.live2skull.net/damoa.apk)  
+[발표 자료 다운로드 - 링크 수정 예정](http://download.live2skull.net/damoa.pdf)  
 
 ### 일반 현황
  - 2018 국방부오픈소스아카데미 SW개발캠프 APP분야 산출물
